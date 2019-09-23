@@ -1,4 +1,4 @@
-exports.createPages = ({ actions }) => {
+exports.createPages = ({ actions: { createRedirect } }) => {
   createRedirect({
     fromPath: "/",
     toPath: "/witaj-swiecie",

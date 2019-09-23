@@ -14,6 +14,10 @@ exports.createPages = ({ store }) => {
       fromPath: "/",
       toPath: "/hello-world",
       Language: `en`,
+    },
+    {
+      fromPath: "/wat",
+      toPath: "/hello-world",
     }
   )
 }
